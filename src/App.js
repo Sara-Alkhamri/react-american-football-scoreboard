@@ -41,7 +41,7 @@ function App() {
         </div>
         <div className="awayButtons">
           <button onClick ={ () => setAway(away + 7)}className="awayButtons__touchdown">Away Touchdown</button>
-          <button onClick ={ () => setAway(away + 7)}className="awayButtons__fieldGoal">Away Field Goal</button>
+          <button onClick ={ () => setAway(away + 3)}className="awayButtons__fieldGoal">Away Field Goal</button>
         </div>
       </section>
     </div>
